@@ -1,0 +1,11 @@
+Write-Host "Arduino GIGA QSPI prep steps:" -ForegroundColor Cyan
+Write-Host "1. Close Tera Term / serial programs."
+Write-Host "2. Arduino IDE: File -> Examples -> STM32H747_System -> QSPIFormat"
+Write-Host "3. Upload QSPIFormat to the GIGA."
+Write-Host "4. Open Serial Monitor and press RESET if needed."
+Write-Host "5. Answer prompts: Y, Y, Y, Y"
+Write-Host "   - Proceed: Y"
+Write-Host "   - Full erase: Y"
+Write-Host "   - Restore WiFi firmware/certificates: Y"
+Write-Host "   - Use LittleFS for user-data partition: Y"
+Write-Host "6. When complete, upload GigaBasic_MeanMachine_QSPI_REV11.ino."
